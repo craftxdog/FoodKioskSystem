@@ -1,5 +1,5 @@
 {
-  "name": "quiosco-next",
+  "name": "food-kiosk-system",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "author": {
+    "name": "craftxdog-(Erwing Ulloa)"
+  },
+  "repository": {
+    "url": "https://github.com/craftxdog/FoodKioskSystem.git"
   },
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
